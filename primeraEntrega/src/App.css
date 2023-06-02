@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* { /*cambia el estilo para todas las etiquetas*/
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: underline none;
+}
+
+
