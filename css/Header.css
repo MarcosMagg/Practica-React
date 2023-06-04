@@ -1,0 +1,40 @@
+.header {
+  background-image: url("https://wallpaperaccess.com/full/3435249.jpg");
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 150px;
+}
+.header .logo {
+  height: 150px;
+  width: auto;
+  float: left;
+}
+.header .header_container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.header .header_h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.header .header_nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .header_nav .header_link {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */

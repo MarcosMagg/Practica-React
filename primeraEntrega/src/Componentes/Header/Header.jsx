@@ -1,4 +1,6 @@
 import './Header.scss'
+import { CardWidget } from '../CardWidget/CardWidget'
+
 
 
 
@@ -15,6 +17,9 @@ const Header = () => {
                     <a className="header_link" href="#">Enlace1</a>
                     <a className="header_link" href="#">Enlace2</a>
                     <a className="header_link" href="#">Enlace3</a>
+                    <a className="header_link" href="#">
+                        <CardWidget />
+                    </a>
             </nav>
         </header>
     )
