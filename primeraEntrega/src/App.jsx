@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"/*permi
 import Nosotros from "./Componentes/Nosotros/Nosotros"
 import Contacto from "./Componentes/Contacto/Contacto"
 import Error404 from "./Componentes/Error404/Error404"
+import PokeApi from "./ejemplos/PokeApi/PokeApi"
 import ItemDetailContainer from "./Componentes/ItemDetailContainer/ItemDetailContainer"
 
 /*Todo esto es un COMPONENTE*/

@@ -1,26 +1,26 @@
 import './Header.scss'
-import { CardWidget } from '../CardWidget/CardWidget'
 import { Link } from 'react-router-dom'
+import { CardWidget } from '../CardWidget/CardWidget'
 
 
+const Header = ({variant = false}) => {
 
-const Header = () => {
+    return (
+        <header className={variant ? "header header-v" : "header"}>
+            <div className="header__container">
+            <img className="logo"  src="../public/img/Warhammer-logo.jpg"/>
 
-    return(
-        <header className="header">
-        <nav className="header_nav">
-            <div >
-                <img className='logo'  src="../public/img/Warhammer-logo.jpg"/>
-                
-            </div>
-                
-                    <Link className="header_link" to="#">Enlace1</Link>
-                    <Link className="header_link" to="#">Enlace2</Link>
-                    <Link className="header_link" to="#">Enlace3</Link>
+                <nav className="header__nav">
+                    <Link className="header__link" to="/">Inicio</Link>
+                    <Link className="header__link" to="/productos/Space-Marines">Space-Marines</Link>
+                    <Link className="header__link" to="/productos/Tyranids">Tyranids</Link>
+                    <Link className="header__link" to="/productos/Necrons">Necrons</Link>
+                    <Link className="header__link" to="/productos/Adeptus-Mechanicus">Adeptus-Mechanicus</Link>
                     <Link className="header_link" to="#">
                         <CardWidget />
                     </Link>
-            </nav>
+                </nav>
+            </div>
         </header>
     )
 }
