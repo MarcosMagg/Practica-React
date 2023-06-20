@@ -1,6 +1,6 @@
 import './Header.scss'
 import { CardWidget } from '../CardWidget/CardWidget'
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -11,15 +11,15 @@ const Header = () => {
         <nav className="header_nav">
             <div >
                 <img className='logo'  src="../public/img/Warhammer-logo.jpg"/>
-                <h1 className='header_h1'>Warhammer 40k</h1>
+                
             </div>
                 
-                    <a className="header_link" href="#">Enlace1</a>
-                    <a className="header_link" href="#">Enlace2</a>
-                    <a className="header_link" href="#">Enlace3</a>
-                    <a className="header_link" href="#">
+                    <Link className="header_link" to="#">Enlace1</Link>
+                    <Link className="header_link" to="#">Enlace2</Link>
+                    <Link className="header_link" to="#">Enlace3</Link>
+                    <Link className="header_link" to="#">
                         <CardWidget />
-                    </a>
+                    </Link>
             </nav>
         </header>
     )
