@@ -7,7 +7,7 @@ const ItemCard = ({id, nombre, precio, descripcion, img}) => {
 
     return (
         
-            <div className='col-3 m-2'>
+            <div className='col-5 m-5'>
             <div className="itemCard">
                     <h4>{nombre}</h4>
                     <img src={img} alt={nombre}/>
